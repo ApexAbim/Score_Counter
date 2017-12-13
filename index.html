@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Score Counter</title>
+    
+     <link rel="stylesheet" href="src/court.css">
+     
+     <link href="https://fonts.googleapis.com/css?family=Catamaran:800" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
+     
+     <script type="text/javascript" src="src/court.js"></script>
+</head>
+<body>
+   <div class="wrapper">
+       
+   
+    <div class="home">
+    <h2>HOME</h2>
+       
+        <!--Teams-->
+        <select>
+              <option value="hawks">Atlanta Hawks</option>
+              <option value="celtics">Boston Celtics</option>
+              <option value="nets">Brooklyn Nets</option>
+              <option value="hornets">Charlotte Hornets</option>
+              <option value="bulls">Chicago Bulls</option>
+              <option value="cavaliers">Cleveland Cavaliers</option>
+              <option value="mavericks">Dallas Mavericks</option>
+              <option value="nuggets">Denver Nuggets</option>
+              <option value="pistons">Detroit Pistons</option>
+              <option value="warriors">Golden State Warriors</option>
+              <option value="rockets">Houston Rockets</option>
+              <option value="pacers">Indiana Pacers</option>
+              <option value="clippers">Los Angeles Clippers</option>
+              <option value="lakers">Los Angeles Lakers</option>
+              <option value="grizzlies">Memphis Grizzlies</option>
+              <option value="heat">Miami Heat</option>
+              <option value="bucks">Milwaukee Bucks</option>
+              <option value="wolves">Minnesota Timberwolves</option>
+              <option value="pelicans">New Orleans Pelicans</option>
+              <option value="knicks">New York Knicks</option>
+              <option value="thunder">Oklahoma City Thunder</option>
+              <option value="magic">Orlando Magic</option>
+              <option value="76ers">Philadelphia 76ers</option>
+              <option value="suns">Phoenix Suns</option>
+              <option value="blazers">Portland Trail Blazers</option>
+              <option value="kings">Sacramento Kings</option>
+              <option value="spurs">San Antonio Spurs</option>
+              <option value="raptors">Toronto Raptors</option>
+              <option value="jazz">Utah Jazz</option>
+              <option value="wizards">Washington Wizards</option>
+        </select>
+           
+            <p id=hpts>0</p>
+                 <button id="three" onclick="three()">+3 POINTS</button>
+                 <button id="two" onclick="two()">+2 POINTS</button>
+                 <button id="one" onclick="one()">FREE THROW</button>
+    </div>
+    
+    
+    <div class="away">
+        <h2>AWAY</h2>
+            
+             <!--Teams-->
+        <select>
+              <option value="hawks">Atlanta Hawks</option>
+              <option value="celtics">Boston Celtics</option>
+              <option value="nets">Brooklyn Nets</option>
+              <option value="hornets">Charlotte Hornets</option>
+              <option value="bulls">Chicago Bulls</option>
+              <option value="cavaliers">Cleveland Cavaliers</option>
+              <option value="mavericks">Dallas Mavericks</option>
+              <option value="nuggets">Denver Nuggets</option>
+              <option value="pistons">Detroit Pistons</option>
+              <option value="warriors">Golden State Warriors</option>
+              <option value="rockets">Houston Rockets</option>
+              <option value="pacers">Indiana Pacers</option>
+              <option value="clippers">Los Angeles Clippers</option>
+              <option value="lakers">Los Angeles Lakers</option>
+              <option value="grizzlies">Memphis Grizzlies</option>
+              <option value="heat">Miami Heat</option>
+              <option value="bucks">Milwaukee Bucks</option>
+              <option value="wolves">Minnesota Timberwolves</option>
+              <option value="pelicans">New Orleans Pelicans</option>
+              <option value="knicks">New York Knicks</option>
+              <option value="thunder">Oklahoma City Thunder</option>
+              <option value="magic">Orlando Magic</option>
+              <option value="76ers">Philadelphia 76ers</option>
+              <option value="suns">Phoenix Suns</option>
+              <option value="blazers">Portland Trail Blazers</option>
+              <option value="kings">Sacramento Kings</option>
+              <option value="spurs">San Antonio Spurs</option>
+              <option value="raptors">Toronto Raptors</option>
+              <option value="jazz">Utah Jazz</option>
+              <option value="wizards">Washington Wizards</option>
+        </select>
+       
+                <p id=apts>0</p>
+                    <button id="threee" onclick="threee()">+3 POINTS</button>
+                    <button id="twoo" onclick="twoo()">+2 POINTS</button>
+                    <button id="onee" onclick="onee()">FREE THROW</button>
+    </div>
+    
+     <button id="reset" onclick="reset()">RESET</button>
+     <button id="result" onclick="result()">RESULT</button>
+     
+     </div>
+     <p id="results"></p>
+</body>
+</html>
